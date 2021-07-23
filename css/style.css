@@ -10,6 +10,18 @@ body {
     font-family: 'Rubik', sans-serif;
     background-color: #FAFAFA;
 }
+
+h2 {
+    line-height: 50px;
+}
+p {
+    margin: 1rem 0;
+}
+
+h5 {
+    margin-bottom: 0;
+    margin-top: 2px;
+}
 /* =======================================
         Header Section
 ==========================================*/
@@ -31,7 +43,8 @@ body {
     font-weight: 700;
 }
 
-.get-started-btn {
+.get-started-btn,
+.plan-primeum-btn {
     border: none;
     background-color: #F53838;
     padding: 12px 40px;
@@ -42,7 +55,8 @@ body {
     transition: 0.5s;
 }
 
-.get-started-btn:hover {
+.get-started-btn:hover,
+.plan-primeum-btn:hover {
     transform: scale(1.1);
 }
 
@@ -55,7 +69,7 @@ body {
     padding: 16px;
 }
 
-.subscriber {
+.subscriber:not(:last-child) {
     border-right: 2px solid #EEEFF2;
     width: 16px;
 }
@@ -94,12 +108,82 @@ body {
     padding: 10px 50px;
 }
 
-.plan-primeum-btn {
-    border: none;
-    background-color: #F53838;
-    padding: 12px 40px;
-    width: 250px;
-    border-radius: 10px;
+.plan-btn:hover {
+    background-color: #F53855;
     color: #fff;
-    font-weight: 500;
+}
+
+/* =================================
+        Map Section
+====================================*/
+.map-info {
+    padding-bottom: 90px;
+}
+
+/* =================================
+        Brands section
+====================================*/
+.brand-image img {
+    width: 200px;
+    height: 62px;
+    object-fit: cover;
+}
+
+.amazon {
+    width: 277px;
+}
+
+/* ==================================
+        Client Section
+=====================================*/
+.client-section {
+    height: 212px;
+    border: 2px solid #EEEFF2;
+    border-radius: 10px;
+}
+.client-section:hover {
+    border: 2px solid #F53855;
+}
+.client img {
+    height: 50px;
+}
+
+.client-name h5 {
+    font-size: 18px;
+}
+
+.rating,
+.fill {
+    font-size: 14px;
+}
+
+.fill {
+    color: #FEA250;
+}
+
+.dot {
+    width: 45px;
+    background-color: #F53838;
+}
+.single-dot {
+    width: 15px;
+    height: 15px;
+    background-color: #DDE0E4;
+    border-radius: 50%;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #F53855;
+    color: #F53855;
+}
+
+.circle:last-child {
+    background-color: #F53855;
+    color: #fff;
+}
+
+.circle i {
+    font-size: 28px;
 }
