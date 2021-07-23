@@ -14,9 +14,9 @@ body {
 h2 {
     line-height: 50px;
 }
-p {
+/* p {
     margin: 1rem 0;
-}
+} */
 
 h5 {
     margin-bottom: 0;
@@ -25,7 +25,9 @@ h5 {
 /* =======================================
         Header Section
 ==========================================*/
-
+.sign-up {
+    border: 2px solid #F53855;
+}
 
 /* =======================================
         Banner Section
@@ -44,19 +46,20 @@ h5 {
 }
 
 .get-started-btn,
-.plan-primeum-btn {
+.plan-primeum-btn,
+.subscribe-btn {
     border: none;
     background-color: #F53838;
     padding: 12px 40px;
     width: 250px;
     border-radius: 10px;
-    color: #fff;
     font-weight: 500;
     transition: 0.5s;
 }
 
 .get-started-btn:hover,
-.plan-primeum-btn:hover {
+.plan-primeum-btn:hover,
+.subscribe-btn:hover {
     transform: scale(1.1);
 }
 
@@ -82,7 +85,8 @@ h5 {
     margin-top: 4rem;
 }
 .feature-info ul,
-.card ul {
+.card ul,
+.services ul {
     list-style: none;
     padding-left: 0;
 }
@@ -108,7 +112,8 @@ h5 {
     padding: 10px 50px;
 }
 
-.plan-btn:hover {
+.plan-btn:hover,
+.sign-up:hover {
     background-color: #F53855;
     color: #fff;
 }
@@ -186,4 +191,32 @@ h5 {
 
 .circle i {
     font-size: 28px;
+}
+
+/* ================================
+        Footer Section
+===================================*/
+.footer-info {
+    width: 35%;
+}
+
+.services {
+    width: 50%;
+}
+
+.services ul li a {
+    text-decoration: none;
+    color: #4F5665;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+    background-color: #F53855;
+}
+
+.icon i {
+    font-size: 18px;
+    color: #fff;
+    margin: 5px;
 }
