@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #FAFAFA;
+}
+/* =======================================
+        Header Section
+==========================================*/
+
+
+/* =======================================
+        Banner Section
+==========================================*/
+.hero-section {
+    margin: 70px 0
+}
+.section-title {
+    font-size: 3rem;
+    line-height: 70px;
+    font-weight: 500;
+}
+
+.highlight {
+    font-weight: 700;
+}
+
+.get-started-btn {
+    border: none;
+    background-color: #F53838;
+    padding: 12px 40px;
+    width: 250px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.get-started-btn:hover {
+    transform: scale(1.1);
+}
+
+/* ====================================
+        Category Section
+=======================================*/
+.subscriber .fas {
+    background-color: #FCEAEA;
+    border-radius: 50%;
+    padding: 16px;
+}
+
+.subscriber {
+    border-right: 2px solid #EEEFF2;
+    width: 16px;
+}
+
+/* ====================================
+        Feature Section
+=======================================*/
+.feature-info {
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+.feature-info ul,
+.card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.feature-info ul li {
+    margin-right: 15px;
+}
+.feature-info ul li .fas,
+.card ul li .fas {
+    color: #2FAB73;
+}
+
+.card ul li .fas {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+/* ==================================
+        Plan Section
+=====================================*/
+.plan-btn {
+    border: 1px solid #F53855;
+    padding: 10px 50px;
+}
+
+.plan-primeum-btn {
+    border: none;
+    background-color: #F53838;
+    padding: 12px 40px;
+    width: 250px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+}
