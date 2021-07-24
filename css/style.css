@@ -36,7 +36,7 @@ h5 {
     margin: 70px 0
 }
 .section-title {
-    font-size: 3rem;
+    font-size: 42px;
     line-height: 70px;
     font-weight: 500;
 }
@@ -107,6 +107,18 @@ h5 {
 /* ==================================
         Plan Section
 =====================================*/
+.card-header {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    padding-bottom: 50px;
+}
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .plan-btn {
     border: 1px solid #F53855;
     padding: 10px 50px;
